@@ -1,0 +1,66 @@
+﻿@page "/"
+
+<PageTitle>Idiom Quiz</PageTitle>
+
+<h2>Idiom Quiz</h2>
+
+<div class="main-container">
+    <div class="header-section">
+        <div class="stars">
+            @for (var i = 0; i < _correctAnswers; i++)
+            {
+                <img src="star.svg" alt="A golden star" width="16" height="16"/>
+            }
+        </div>
+        @if (_revealCorrectAnswer)
+        {
+            <button class="btn btn-primary" @onclick="HandleNextQuestionClicked">
+                Next Question
+            </button>
+        }
+    </div>
+    <div class="question-section">
+        @if (_currentQuestionIndex >= _idioms.Length)
+        {
+            <span>No more questions! You got @_correctAnswers / @_idioms.Length right!</span>
+        }
+        else
+        {
+            var currentIdiom = _idioms[_currentQuestionIndex];
+            <div class="question">
+                @currentIdiom.IdiomText
+            </div>
+            <div class="answers">
+                @foreach (string option in currentIdiom.Answers)
+                {
+                    string optionClass = GetAnswerCssClass(currentIdiom.IsCorrectAnswer(option));
+                    <div class="@optionClass" @onclick="@(() => HandleOptionSelected(currentIdiom, option))">
+                        @option
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+
+    private int _currentQuestionIndex = 0;
+    private int _correctAnswers = 0;
+    private bool _revealCorrectAnswer = false;
+
+    private string GetAnswerCssClass(bool isCorrect)
+    {
+        const string BaseClass = "answer";
+        
+        if (!_revealCorrectAnswer)
+        {
+            return BaseClass;
+        }
+
+        string color = isCorrect ? "correct" : "incorrect";
+        
+        return $"{BaseClass} {color}";
+    }
+
+}
