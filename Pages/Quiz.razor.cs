@@ -77,9 +77,9 @@ public static class IdiomData
                                Bessa ois wia a Sta am Schedl;It's not great, but it could be even worse;It's better than the best;It's as bad as it gets;It's worse than expected
                                Du beidlst am Watschnbam;You are straining my patience;You are climbing the wrong tree;You are missing the point;You are being very helpful
                                Du konnst ma an Schuach aufblosen;I don't care, get lost;You can tie my shoes;You can help me out;I lost my shoes
-                               Es ist g'hupft wia g'sprunga;It doesn't make any difference;It's better to jump than to run;It's time to dance and sing;It's as good as it gets
+                               Es ist g'hupft wia g'hatscht;It doesn't make any difference;It's better to jump than to run;It's time to dance and sing;It's as good as it gets
                                A Lösung vo Zwöfi bis Mittog;The solution won't work for long;The solution is very easy to implement;The solution will last forever;The solution is perfect
-                               Dafrurn sand scho vü, dastunga nu kana;We can stop airing out the room now, it's cold;Many have frozen here, but none have died;There are many people here, but no one is singing;We need to clean the room, it's dirty
+                               Dafrorn sand scho vü, dastunga nu kana;We can stop airing out the room now, it's cold;Many have frozen here, but none have died;There are many people here, but no one is singing;We need to clean the room, it's dirty
                                Glei spüt's Granada;There's going to be trouble soon;We'll go to Spain;The music will start soon;The play is about to begin
                                Hoid's zom / Hoid de Goschn;Shut up;Hold fast;Keep working together;Open your mouth and speak
                                No, hawi d'Ehre;Being surprised;Now, I have the honor;Yes, I expected this;No, I decline the honor
@@ -87,7 +87,7 @@ public static class IdiomData
                                In da Not frisst da Teife Fliagn;If there is no other option, we have to work with what we have;Flies are a valueable food source;In times of need, flies help us;Flies will eat the devil
                                Do host ka Leiwal;You don't stand a chance;You have a new shirt;You have no life;You are very lucky
                                I hob Mognleis;I'm nervous;I have stomach pain;I am hungry;I feel confident
-                               Ned gschmipft is globt gnua;Not scolding you is praise enough;I'd never scold you;No news is bad news;Being scolded is high praise
+                               Ned gschimpft is globt gnua;Not scolding you is praise enough;I'd never scold you;No news is bad news;Being scolded is high praise
                                Nur ned hudln;Don't do it in haste, take your time;Don't bother me now;Only do it quickly;Hurry up and finish
                                Budl di ned auf;Don't get upset about this;Dig yourself a hole;Get dressed quickly;Cheer up and smile
                                Wos da Baua ned kennt, frisst a ned;Not wanting to try a new dish;What the farmer doesn't know won't hurt him;Trying out new dishes;Products from the farmer's market are the best
