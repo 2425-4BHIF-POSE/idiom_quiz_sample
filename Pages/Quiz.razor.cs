@@ -82,7 +82,7 @@ public static class IdiomData
                                A Lösung vo Zwöfi bis Mittog;The solution won't work for long;The solution is very easy to implement;The solution will last forever;The solution is perfect
                                Dafrorn sand scho vü, dastunga nu kana;We can stop airing out the room now, it's cold;Many have frozen here, but none have died;There are many people here, but no one is singing;We need to clean the room, it's dirty
                                Glei spüt's Granada;There's going to be trouble soon;We'll go to Spain;The music will start soon;The play is about to begin
-                               Nägl mit Käpf mocha;Implementing a proper solution;Hitting somebody's head with nails;Implementing a sub-par solution;Painting portraits on fingernails
+                               Nägl mit Kepf mocha;Implementing a proper solution;Hitting somebody's head with nails;Implementing a sub-par solution;Painting portraits on fingernails
                                No, hawi d'Ehre;Being surprised;Now, I have the honor;Yes, I expected this;No, I decline the honor
                                Do spüt d'Musi;Be attentive, that is important;The orchester is playing here;It's quiet here;This is nonsense
                                In da Not frisst da Teife Fliagn;If there is no other option, we have to work with what we have;Flies are a valueable food source;In times of need, flies help us;Flies will eat the devil
